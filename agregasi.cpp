@@ -10,4 +10,9 @@ int main() {
     anak* varAnak1 = new anak("ono");
     anak* varAnak2 = new anak("ratu");
 
+    varIbu->tambahAnak(varAnak1);
+    varIbu->tambahAnak(varAnak2);
+
+    varIbu->cetakAnak();
+
     
